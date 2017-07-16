@@ -1,0 +1,40 @@
+{
+	"name": "noop-cli",
+	"version": "0.0.0",
+	"description": "◻️ Supreme nothingness",
+	"license": "MIT",
+	"repository": "sindresorhus/noop-cli",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"bin": {
+		"noop": "cli.js"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"noop",
+		"no-op",
+		"empty",
+		"nothing"
+	],
+	"dependencies": {
+		"meow": "^3.7.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"execa": "^0.7.0",
+		"xo": "*"
+	}
+}
