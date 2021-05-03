@@ -1,6 +1,6 @@
 {
 	"name": "noop-cli",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "◻️ Supreme nothingness",
 	"license": "MIT",
 	"repository": "sindresorhus/noop-cli",
