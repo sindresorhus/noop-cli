@@ -1,6 +1,5 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
+import meow from 'meow';
 
 meow(`
 	Usage

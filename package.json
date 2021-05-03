@@ -7,13 +7,15 @@
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
 	},
+	"type": "module",
+	"exports": "./index.js",
 	"bin": {
-		"noop": "cli.js"
+		"noop": "./cli.js"
 	},
 	"engines": {
-		"node": ">=4"
+		"node": ">=12"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -30,11 +32,11 @@
 		"nothing"
 	],
 	"dependencies": {
-		"meow": "^3.7.0"
+		"meow": "^9.0.0"
 	},
 	"devDependencies": {
-		"ava": "*",
-		"execa": "^0.7.0",
-		"xo": "*"
+		"ava": "^3.15.0",
+		"execa": "^5.0.0",
+		"xo": "^0.39.1"
 	}
 }
